@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QwixxLib", "QwixxLib\QwixxLib.csproj", "{45D6AA2F-2200-4146-94EC-8A700A4E6764}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45D6AA2F-2200-4146-94EC-8A700A4E6764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D6AA2F-2200-4146-94EC-8A700A4E6764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D6AA2F-2200-4146-94EC-8A700A4E6764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D6AA2F-2200-4146-94EC-8A700A4E6764}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {276971EC-5BE4-47A7-819B-75E46DC28167}
+	EndGlobalSection
+EndGlobal
