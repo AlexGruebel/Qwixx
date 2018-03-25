@@ -2,13 +2,21 @@
 
 namespace QwixxLib
 {
-    public struct Cube
+    public class Cube
     {
         public string color{ get; set; }
         public byte id { get; set; }
-        public byte RandomCubeNr { get
+
+        private byte _RandomCubeNr;
+        private static Random rnd = new Random(DateTime.Now.Millisecond);
+
+        public void GenerateRndCubeNr(){
+            this._RandomCubeNr = ((byte)rnd.Next(1, 7));
+        }
+
+        public  byte RandomCubeNr { get
             {
-                return ((byte)new Random(DateTime.Now.Millisecond).Next(1, 7));
+                return _RandomCubeNr;
             }
         }
     }
